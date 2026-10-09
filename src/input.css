@@ -327,6 +327,8 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
 
 /* Kora build additions: screen-reader-only text, 404 page. */
 .closing img { width: auto; height: 96px; }
+/* Mobile menu: the panel (z 60) sits under the lifted header, so its links start below it. */
+.mobile-menu { padding-top: 150px; }
 .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 .notfound { min-height: 64vh; display: flex; align-items: center; text-align: center; }
 .notfound .wrap { width: 100%; }
@@ -339,4 +341,5 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
 .footer img { height: 74px; }
 @media (max-width: 1023px) { .brand img { height: 60px; } }
 @media (max-width: 720px) { .brand img { height: 54px; } }
+html.menu-open .header { z-index: 65; background: var(--ivory); box-shadow: 0 1px 0 var(--line); }
 }
