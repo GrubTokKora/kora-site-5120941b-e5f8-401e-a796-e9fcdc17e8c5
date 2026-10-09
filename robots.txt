@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: /sitemap.xml
+Disallow: /.kora/
+Sitemap: https://skinjourneybyvanessa.com/sitemap.xml
