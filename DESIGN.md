@@ -22,7 +22,7 @@ composition: |
   Centered hero with arched three-image gallery; facts strip; 'What would you like to change?' concern finder (7 concerns → matching treatments with prices); full menu in three cards; dark Complete Skin Journey band; About Vanessa; swipeable review row; real treatment clips; visit steps + hours + map; FAQ; journal; badge closing; espresso footer.
 
 content_rules:
-  - Display name "Facials by Vanessa CT"; brand mark "Skin Journey by Vanessa" (redrawn gold logo). Owner: Vanessa Gordon-McFarlene.
+  - Display name "Facials by Vanessa CT". Logo: gold seven-petal lotus + FACIALS BY / Vanessa CT / SKIN JOURNEY™ (from the owner's flyer); favicon = the lotus alone. One logo file and one favicon only. Owner: Vanessa Gordon-McFarlene.
   - Prices, durations and deposits exactly as on the Zoca menu (15 services, 3 categories). $30 deposit for in-studio; virtual paid at booking.
   - Reviews are verbatim Google excerpts (surnames initialised); rating 4.9 from 66 Google reviews.
   - Hours from the Google Business Profile: Mon/Wed/Thu 11–7, Tue 11:30–7, Fri 4–7, Sat 11–5, Sun 3–6; virtual 10–5 daily.
@@ -34,4 +34,4 @@ files:
   - index.html / 404.html share byte-identical kora:shell header/footer blocks (header includes the top bar and mobile menu; footer includes the mobile Call/Book bar).
   - src/input.css holds @theme tokens and the page CSS in @layer components; assets/styles.css is compiled at deploy.
   - assets/site.js: header state, mobile menu, tabs, today's hours/open status, reveal, clips, 404 anchor rewrite.
-  - Images are local WebP in assets/img, clips are MP4 + WebP posters in assets/video, logos are PNG in assets/logo.
+  - Images are local WebP in assets/img, clips are MP4 + WebP posters in assets/video, one lotus logo + one lotus favicon (PNG) in assets/logo.
