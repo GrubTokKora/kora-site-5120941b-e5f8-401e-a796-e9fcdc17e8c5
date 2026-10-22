@@ -18,9 +18,10 @@
   --color-blush: #E9D5C5;
   --color-border: #DDD0BC;
 
-  --font-heading: "Cormorant Garamond", Didot, Georgia, serif;
-  --font-body: "Jost", system-ui, -apple-system, sans-serif;
-  --font-script: "Great Vibes", cursive;
+  --font-heading: var(--kora-font-heading, "Cormorant Garamond"), Didot, Georgia, serif;
+  --font-body: var(--kora-font-body, "Jost"), system-ui, -apple-system, sans-serif;
+  --font-accent: var(--kora-font-accent, "Great Vibes"), cursive;
+  --font-script: var(--font-accent);
 }
 
 @layer components {
